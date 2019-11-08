@@ -1,8 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Russo+One&display=swap');
+
 .App {
   text-align: center;
+  font-family: 'Lato', sans-serif;
 }
 .Header {
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
+  font-family: 'Russo One', sans-serif;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.character-card {
+  margin-bottom: 30px;
+}
+
+.character-title {
+  font-family: 'Russo One', sans-serif;
 }
 /* write your parent styles in here for your App.js */
