@@ -21,4 +21,15 @@
 .character-title {
   font-family: 'Russo One', sans-serif;
 }
+
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.active {
+  background: gray;
+  color: white;
+}
+
 /* write your parent styles in here for your App.js */
