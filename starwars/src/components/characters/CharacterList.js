@@ -70,7 +70,7 @@ const CharacterList = () => {
 
     return (
         <Container className="card-container">
-            <Row>          
+            <Row className="character-list">          
                 {
                     page === 1 ?
                     characters.map((item, index) => {
