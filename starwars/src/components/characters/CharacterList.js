@@ -150,41 +150,41 @@ const CharacterList = () => {
                  <Col>
                     <Pagination aria-label="Page navigation" className="full-width">
                         <PaginationItem>
-                            <PaginationLink first href="#" onClick={() => {setPage(1)}} />
+                            <PaginationLink first className="inactive" onClick={() => {setPage(1)}} />
                         </PaginationItem>
                         <PaginationItem>
-                            <PaginationLink previous href="#" onClick={() => {page > 1 ? setPage(page - 1) : setPage(5)}} />
+                            <PaginationLink previous className="inactive" onClick={() => {page > 1 ? setPage(page - 1) : setPage(5)}} />
                         </PaginationItem>
                         <PaginationItem>
-                            <PaginationLink href="#" className={page === 1 ? "active" : null} onClick={() => {setPage(1)}}>
+                            <PaginationLink className={page === 1 ? "active" : "inactive"} onClick={() => {setPage(1)}}>
                             1
                             </PaginationLink>
                         </PaginationItem>
                         <PaginationItem>
-                            <PaginationLink href="#" className={page === 2 ? "active" : null} onClick={() => {setPage(2)}}>
+                            <PaginationLink className={page === 2 ? "active" : "inactive"} onClick={() => {setPage(2)}}>
                             2
                             </PaginationLink>
                         </PaginationItem>
                         <PaginationItem>
-                            <PaginationLink href="#" className={page === 3 ? "active" : null} onClick={() => {setPage(3)}}>
+                            <PaginationLink className={page === 3 ? "active" : "inactive"} onClick={() => {setPage(3)}}>
                             3
                             </PaginationLink>
                         </PaginationItem>
                         <PaginationItem>
-                            <PaginationLink href="#" className={page === 4 ? "active" : null} onClick={() => {setPage(4)}}>
+                            <PaginationLink className={page === 4 ? "active" : "inactive"} onClick={() => {setPage(4)}}>
                             4
                             </PaginationLink>
                         </PaginationItem>
                         <PaginationItem>
-                            <PaginationLink href="#" className={page === 5 ? "active" : null} onClick={() => {setPage(5)}}>
+                            <PaginationLink className={page === 5 ? "active" : "inactive"} onClick={() => {setPage(5)}}>
                             5
                             </PaginationLink>
                         </PaginationItem>
                         <PaginationItem>
-                            <PaginationLink next href="#" onClick={() => {page < 5 ? setPage(page + 1) : setPage(1)}} />
+                            <PaginationLink next className="inactive" onClick={() => {page < 5 ? setPage(page + 1) : setPage(1)}} />
                         </PaginationItem>
                         <PaginationItem>
-                            <PaginationLink last href="#" onClick={() => {setPage(5)}} />
+                            <PaginationLink last className="inactive" onClick={() => {setPage(5)}} />
                         </PaginationItem>
                     </Pagination>
                 </Col>

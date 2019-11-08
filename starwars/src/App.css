@@ -8,6 +8,7 @@
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
   font-family: 'Russo One', sans-serif;
+  padding: 30px 0 20px;
 }
 
 .full-width {
@@ -28,8 +29,6 @@
 }
 
 .active {
-  background: gray;
-  color: white;
+  background: #6495ED;
+  color: #fff;
 }
-
-/* write your parent styles in here for your App.js */
