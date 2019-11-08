@@ -9,8 +9,8 @@ const CharacterCard = props => {
                 <CardTitle className="character-title">{props.name}</CardTitle>
                 <CardSubtitle>Gender: {props.gender}</CardSubtitle>
                 <CardSubtitle>Birth year: {props.birthYear}</CardSubtitle>
-                <CardSubtitle>Height: {props.height}</CardSubtitle>
-                <CardSubtitle>Mass: {props.mass}</CardSubtitle>
+                <CardSubtitle>Height: {props.height}cm</CardSubtitle>
+                <CardSubtitle>Mass: {props.mass}g</CardSubtitle>
                 <CardSubtitle>Eye color: {props.eyeColor}</CardSubtitle>
                 </CardBody>
             </Card>
